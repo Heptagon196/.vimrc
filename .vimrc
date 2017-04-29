@@ -76,6 +76,7 @@ let g:python3_host_prog = '/usr/bin/python'
 let g:neocomplete#enable_at_startup = 1
 let g:startify_session_dir = '~/.vim/session'
 let g:startify_padding_left = 10
+let g:indent_guides_exclude_filetypes = ['help', 'nerdtree', 'startify']
 
 set nrformats=
 set ttimeoutlen=100
